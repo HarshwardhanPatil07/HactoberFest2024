@@ -7,6 +7,10 @@ A Simple😉 beginner friendly😊 Repo for all programmers and coders. All cont
 - 💻 Python
 - 💻 Java
 - 💻 Javascript
+- 💻 CSS
+- 💻 HTML
+- 💻 Nodejs
+
 
 # 🛡Rules to Contribute
 - ⚓Star this repo to get latest updates.
