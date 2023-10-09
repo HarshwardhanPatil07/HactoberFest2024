@@ -21,12 +21,7 @@ A Simple😉 beginner friendly😊 Repo for all programmers and coders. All cont
 - ⚓Make sure you have entered your name in CONTRIBUTORS.md file as mentioned (It's your responsibility) (optional).
 - ⚓You can follow ME😁.
 
-# ❄Format of 5th line in rules
-<pre>// Github username: Your Username
-// Aim: Your Repo aim according to your program
 
-
-</pre>
 
 
 ### ⚡If you are creating any PR then Add your name in CONTRIBUTORS.md file 
