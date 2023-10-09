@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login • Instagram</title>
+    
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <img src="./images/login_img.png" alt="loginImg" />
+      </div>
+      <div class="right">
+        <div class="loginForm">
+          <img src="./icons/logo_large.png" alt="logo" class="logo" />
+          <form action="./Home Page/home.html">
+            <input
+              type="text"
+              name="text"
+              id="text"
+              placeholder="Phone number, username, or email"
+              required
+            />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+            <input type="submit" value="Log In" />
+          </form>
+          <div class="or">
+            <span></span>
+            OR
+            <span></span>
+          </div>
+          <a href="#" class="LoginWithFacebook">
+            <i class="fa-brands fa-facebook-square facebook"></i>
+            Log in with Facebook</a
+          >
+          <a href="forgot_pass.html" class="forgot">Forgot password?</a>
+        </div>
+        <div class="dontHaveAccount">
+          <p>Don't have an account?</p>
+          <a href="Signup.html" class="signup">Sign up</a>
+        </div>
+
+        <p id="getTheApp">Get the app.</p>
+        <div class="images">
+          <img src="./images/appstore.png" alt="App Store" />
+          <img src="./images/googleplay.png" alt="Google Play" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
