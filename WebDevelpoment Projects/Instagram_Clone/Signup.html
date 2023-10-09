@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up • Instagram</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="SignUpContainer">
+      <div class="signUpForm">
+        <img src="./icons/logo_large.png" alt="logo" class="logo" />
+        <p class="text">Sign up to see photos and videos from your friends.</p>
+        <button class="loginFacebook">
+          <i class="fa-brands fa-facebook-square facebook"></i> Log in with
+          Facebook
+        </button>
+        <div class="or">
+          <span></span>
+          OR
+          <span></span>
+        </div>
+
+        <form action="./Home Page/home.html">
+          <input
+            type="phone"
+            name="mobileNo"
+            id="text"
+            placeholder="Mobile Number or Email"
+            required
+          />
+          <input
+            type="text"
+            name="text"
+            id="text"
+            placeholder="Full Name"
+            required
+          />
+          <input
+            type="text"
+            name="username"
+            id="text"
+            placeholder="Username"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <input type="submit" value="Sign up" />
+        </form>
+        <span class="span_text">
+          By signing up, you agree to our Terms , Data Policy and Cookies Policy
+          .
+        </span>
+      </div>
+      <div class="HaveAccount">
+        <p>Have an account?</p>
+        <a href="index.html" class="login">Log in</a>
+      </div>
+
+      <p id="getTheApp">Get the app.</p>
+      <div class="images">
+        <img src="./images/appstore.png" alt="App Store" />
+        <img src="./images/googleplay.png" alt="Google Play" />
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,324 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+}
+
+/* LOGIN FORM */
+/* LOGIN FORM */
+/* LOGIN FORM */
+
+body {
+  min-height: 1000px;
+  width: 100%;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  margin-left: 20px;
+  width: 350px;
+}
+
+.loginForm {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+}
+
+.loginForm img {
+  margin: 40px auto;
+  width: 175px;
+}
+
+.loginForm form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="phone"] {
+  width: 80%;
+  padding: 10px;
+  background: #fafafa;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  font-size: 0.85rem;
+  opacity: 0.8;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  width: 80%;
+  padding: 7px 0;
+  background: #0095f6;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.or {
+  margin: 15px 0;
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+.or span {
+  margin: 0px 10px;
+  height: 0;
+  width: 50%;
+  border-top: 1px solid #ccc;
+}
+
+.LoginWithFacebook {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #3e5185;
+  margin-bottom: 10px;
+}
+
+.forgot {
+  text-decoration: none;
+  color: #3e5185;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.dontHaveAccount,
+.HaveAccount {
+  margin-top: 10px;
+  padding: 20px 0;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  background: #fff;
+}
+
+.dontHaveAccount .signup,
+.HaveAccount .login {
+  margin-left: 5px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #0095f6;
+}
+
+#getTheApp {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 0.9rem;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.images img {
+  width: 150px;
+}
+
+.facebook {
+  font-size: 1.2rem;
+  margin-right: 3px;
+}
+
+/* SIGN UP FORM */
+/* SIGN UP FORM */
+/* SIGN UP FORM */
+
+.SignUpContainer {
+  flex-direction: column;
+}
+
+.signUpForm {
+  width: 350px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+}
+
+.signUpForm .logo {
+  margin: 40px auto 20px;
+  width: 175px;
+}
+
+.signUpForm p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  opacity: 0.6;
+  margin-bottom: 10px;
+  width: 75%;
+}
+
+.signUpForm .loginFacebook {
+  width: 75%;
+  padding: 5px 0px;
+  background: #0095f6;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.signUpForm form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signUpForm .span_text,
+.resetForm .span_text {
+  margin: 20px 0;
+  width: 80%;
+  font-size: 0.8rem;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.SignUpContainer .HaveAccount {
+  width: 100%;
+}
+
+.SignUpContainer .images {
+  width: 100%;
+}
+
+/* FORGET PASSWORD FORM */
+/* FORGET PASSWORD FORM */
+/* FORGET PASSWORD FORM */
+
+.resetContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.resetForm {
+  padding: 20px 0px;
+  width: 400px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+}
+
+.resetForm .lockIcon {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.resetForm .lockIcon i {
+  font-size: 3rem;
+}
+
+.resetForm .boldText {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.resetForm form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.createAccount {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.backToLogin {
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .left {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+
+  .right {
+    width: 450px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .resetForm {
+    width: 350px;
+  }
+
+  .right {
+    width: 390px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .resetForm {
+    width: 300px;
+  }
+  .signUpForm {
+    width: 300px;
+  }
+  .right {
+    width: 300px;
+  }
+  .images img {
+    width: 130px;
+  }
+}
