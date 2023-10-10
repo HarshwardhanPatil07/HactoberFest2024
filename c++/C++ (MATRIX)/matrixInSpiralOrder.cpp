@@ -1,3 +1,7 @@
+//  given an n*m matrix "a" return all elements of the matrix in spiral order
+
+
+
 #include<iostream>
 #include<vector>
 using namespace std;
