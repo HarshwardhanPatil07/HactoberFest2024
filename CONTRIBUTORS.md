@@ -19,3 +19,4 @@
 | msabhii | <a href="https://github.com/msabhii"> Abhishek Thakur </a> |
 | RekhaGiri | <a href="https://github.com/RekhaGiri"> Rekha Giri</a>|
 | Shreeraj Bhamare | <a href="https://github.com/shreerajbhamare"> shreerajbhamare</a>|
+| Moh Faizan | <a href="https://github.com/faizanusmani06"> Moh Faizan</a>|
