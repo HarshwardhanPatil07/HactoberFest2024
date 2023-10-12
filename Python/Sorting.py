@@ -138,6 +138,30 @@ def radix_sort(self):
             
             buckets = [[] for _ in range(10)]
 
+
+
+def counting_sort(self):
+
+        max_num = max(self.arr)
+        min_num = min(self.arr)
+        range_of_values = max_num - min_num + 1
+
+        count = [0] * range_of_values
+        output = [0] * len(self.arr)
+
+        for num in self.arr:
+            count[num - min_num] += 1
+
+        for i in range(1, range_of_values):
+            count[i] += count[i - 1]
+
+        for num in reversed(self.arr):
+            output[count[num - min_num] - 1] = num
+            count[num - min_num] -= 1
+
+        self.arr = output
+
+
 # Base example array
 arr = [64, 34, 25, 12, 22, 11, 90]
 
@@ -186,4 +210,10 @@ sorting_obj.display()
 print("\nRadix Sort -")
 sorting_obj = SortingAlgorithms(arr)  # Reset the array
 sorting_obj.radix_sort()
+sorting_obj.display()
+
+# Counting Sort
+print("\nCounting Sort -")
+sorting_obj = SortingAlgorithms(arr)  # Reset the array
+sorting_obj.counting_sort()
 sorting_obj.display()
