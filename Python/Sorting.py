@@ -117,6 +117,26 @@ class SortingAlgorithms:
         print("Sorted Array:", self.arr)
         print("Steps needed for sorting:", self.steps)
 
+   
+
+
+def radix_sort(self):
+        max_num = max(self.arr)
+        num_digits = len(str(max_num))
+        
+        # Initialize a bucket for each digit (0-9)
+        buckets = [[] for _ in range(10)]
+        
+        for digit in range(num_digits):
+            for num in self.arr:
+                index = (num // 10 ** digit) % 10
+                buckets[index].append(num)
+            
+            self.arr = []
+            for bucket in buckets:
+                self.arr.extend(bucket)
+            
+            buckets = [[] for _ in range(10)]
 
 # Base example array
 arr = [64, 34, 25, 12, 22, 11, 90]
@@ -160,4 +180,10 @@ sorting_obj.display()
 print("\nHeap Sort -")
 sorting_obj = SortingAlgorithms(arr)  # Reset the array
 sorting_obj.heap_sort()
+sorting_obj.display()
+
+# Radix Sort
+print("\nRadix Sort -")
+sorting_obj = SortingAlgorithms(arr)  # Reset the array
+sorting_obj.radix_sort()
 sorting_obj.display()
