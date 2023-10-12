@@ -22,4 +22,3 @@
 | Shreeraj Bhamare | <a href="https://github.com/shreerajbhamare"> shreerajbhamare</a>|
 | Moh Faizan | <a href="https://github.com/faizanusmani06"> Moh Faizan</a>|
 | Praneesh Sharma | <a href="https://github.com/Praneesh-Sharma"> Praneesh Sharma </a>|
-| Satya Sharma | <a href="https://github.com/sattya19"> Satya Sharma </a>|
