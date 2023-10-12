@@ -22,4 +22,4 @@
 | Moh Faizan | <a href="https://github.com/faizanusmani06"> Moh Faizan</a>|
 | Praneesh Sharma | <a href="https://github.com/Praneesh-Sharma"> Praneesh Sharma </a>|
 | Naman Bagdiya | <a href="https://github.com/NamanOG"> NamanOG </a>|
-| Marina J | <a href="https://github.com/marinajcs"> NamanOG </a>|
+| Marina J | <a href="https://github.com/marinajcs"> marinajcs </a>|
