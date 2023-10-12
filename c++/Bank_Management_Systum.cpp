@@ -1,8 +1,3 @@
-// Name - Naman bagdiya
-// Github - github.com/NamanOG
-// Aim - FullStack Developer
-// Date - 11-10-2023
-
 #include <iostream>
 #include <vector>
 #include <string>
