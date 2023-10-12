@@ -1,8 +1,9 @@
 <h1>✨Happy Hacktoberfest 2023✨</h1>
 <p>Hacktoberfest is a yearly event whiich encourages not only programmers and coders but also non-technical background to contribute in open source and start their journey with open source.</p>
-<h1>Star Repo is Mandatory for Hactober Accepting!</h1>  
+<h1>Star Repo is Mandatory for Hactober Accepting!</h1>
 
 # Message
+
 <p>Enter your Name, Github Link in the given format. Don't try to change anything else!!!</p>
 <code>| Name | Github Link |</code>
 
@@ -21,3 +22,4 @@
 | Shreeraj Bhamare | <a href="https://github.com/shreerajbhamare"> shreerajbhamare</a>|
 | Moh Faizan | <a href="https://github.com/faizanusmani06"> Moh Faizan</a>|
 | Praneesh Sharma | <a href="https://github.com/Praneesh-Sharma"> Praneesh Sharma </a>|
+| Satya Sharma | <a href="https://github.com/sattya19"> Satya Sharma </a>|
