@@ -1,4 +1,6 @@
 // Program to check whether a number is palindrome or not by conversion to string
+//GitHub username --> sarthakg24
+//Date --> 13.10.2023
 
 #include <bits/stdc++.h>
 using namespace std;
