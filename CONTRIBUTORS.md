@@ -28,3 +28,4 @@
 | Jeelwin | <a href="https://github.com/jeelwin"> Jeelwin </a>|
 | Marina J | <a href="https://github.com/marinajcs"> marinajcs </a>|
 | Diapk Kurkute| <a href="https://github.com/dipak-01"> dipak-01 </a>|
+| Sarthak G| <a href="https://github.com/sarthakg24"> sarthakg24 </a>|
