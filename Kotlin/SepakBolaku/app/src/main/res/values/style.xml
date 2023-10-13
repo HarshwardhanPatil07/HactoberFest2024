@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style untuk TextView -->
+    <style name="PlayerDetailFont1">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#514F4F</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+    </style>
+
+    <!-- Style untuk Button -->
+    <style name="PlayerDetailFont2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#514F4F</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+</resources>
