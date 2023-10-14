@@ -1,5 +1,3 @@
-//Name-Vivek Bendre
-//Github Profile-https://github.com/vivek5200
 //Aim-implementing a singly linked list in C. A singly linked list is a data structure consisting of nodes, where each node holds a data value and a reference (pointer) to the next node in the sequence. Your goal is to create a program that provides various operations on this linked list.
 #include <stdio.h>  
 #include <stdlib.h>  
