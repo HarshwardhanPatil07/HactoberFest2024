@@ -1,3 +1,6 @@
+//github user: kashish-219
+//aim: to complete hactoberfest and learn github
+//date: 14/10/23
 #include <stdio.h>
 #include <ctype.h>
 #define MAX 30
