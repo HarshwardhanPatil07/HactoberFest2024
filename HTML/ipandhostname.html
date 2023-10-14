@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Address and Hostname</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .result {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-md-6 offset-md-3">
+            <div class="result">
+                <h2 class="text-center">Your IP Address and Hostname</h2>
+                <p><strong>IP Address:</strong> <span id="ip-address"></span></p>
+                <p><strong>Hostname:</strong> <span id="hostname"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to fetch and display IP address and hostname using a CORS proxy
+        function displayIPAndHostname() {
+            const corsProxy = 'https://cors-anywhere.herokuapp.com/';
+            const apiUrl = 'https://api64.ipify.org?format=json';
+
+            fetch(corsProxy + apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('ip-address').textContent = data.ip;
+                    return fetch(corsProxy + 'https://api64.ipify.org?hostname=1');
+                })
+                .then(response => response.text()) // Parse the response as text
+                .then(hostname => {
+                    document.getElementById('hostname').textContent = hostname;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+
+        // Call the function when the page loads
+        window.addEventListener('load', displayIPAndHostname);
+    </script>
+</body>
+
+</html>
