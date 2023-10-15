@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check Internet Connection</title>
+</head>
+<body>
+    <div id="status">Checking internet connection...</div>
+
+    <script>
+        function checkInternetConnection() {
+            const statusElement = document.getElementById('status');
+            const online = window.navigator.onLine;
+
+            if (online) {
+                statusElement.textContent = 'Internet is connected.';
+            } else {
+                statusElement.textContent = 'Internet is not connected.';
+            }
+        }
+
+        // Check the internet connection status initially and then listen for online/offline events.
+        checkInternetConnection();
+
+        window.addEventListener('online', checkInternetConnection);
+        window.addEventListener('offline', checkInternetConnection);
+    </script>
+</body>
+</html>
