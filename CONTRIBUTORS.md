@@ -1,5 +1,5 @@
 <h1>✨Happy Hacktoberfest 2023✨</h1>
-<p>Hacktoberfest is a yearly event whiich encourages not only programmers and coders but also non-technical background to contribute in open source and start their journey with open source.</p>
+<p>Hacktoberfest is a yearly event which encourages not only programmers and coders but also non-technical background to contribute in open source and start their journey with open source.</p>
 <h1>Star Repo is Mandatory for Hactober Accepting!</h1>
 
 # Message
@@ -29,3 +29,9 @@
 | Marina J | <a href="https://github.com/marinajcs"> marinajcs </a>|
 | Diapk Kurkute| <a href="https://github.com/dipak-01"> dipak-01 </a>|
 | Kashish Khatri |<a href="https://github.com/kashish-219">kashish-219</a>|
+| Apoorva Raj| <a href="https://github.com/Apoorva-Raj-2520"> Apoorva-Raj-2520 </a>|
+| Aman Agrawal| <a href="https://github.com/Aman-Agrawal-22"> Aman-Agrawal-22 </a>|
+| Rajat Kumar Prajapati| <a href="https://github.com/itsrajatkumar"> ItsRajatKumar </a>|
+| Apoorva Raj| <a href="https://github.com/Apoorva-Raj-2520"> Apoorva-Raj-2520 </a>|
+| Darshit Dudhaiya| <a href="https://github.com/darshitdudhaiya"> Darshit Dudhaiya </a>|
+

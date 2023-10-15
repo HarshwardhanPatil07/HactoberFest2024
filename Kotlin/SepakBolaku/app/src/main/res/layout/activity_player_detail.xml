@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        tools:context=".activity.PlayerDetail">
+
+        <TextView
+            android:id="@+id/player_name"
+            style="@style/PlayerDetailFont1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:text="@string/playernamedescription"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/player_image"
+            app:layout_constraintTop_toTopOf="@+id/player_image" />
+
+        <TextView
+            android:id="@+id/player_name_detail"
+            style="@style/PlayerDetailFont2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/playername"
+            app:layout_constraintStart_toStartOf="@+id/player_name"
+            app:layout_constraintTop_toBottomOf="@+id/player_name" />
+
+        <ImageView
+            android:id="@+id/player_image"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/player_imagedescription"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/aguero" />
+
+        <TextView
+            android:id="@+id/player_description"
+            style="@style/PlayerDetailFont1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/description"
+            app:layout_constraintStart_toStartOf="@+id/player_image"
+            app:layout_constraintTop_toBottomOf="@+id/player_image" />
+
+        <TextView
+            android:id="@+id/player_description_detail"
+            style="@style/PlayerDetailFont2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:justificationMode="inter_word"
+            android:text="@string/lorem_ipsum"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/player_description"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="-205dp" />
+
+        <TextView
+            android:id="@+id/player_club"
+            style="@style/PlayerDetailFont1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/clubnamedescription"
+            app:layout_constraintStart_toStartOf="@+id/player_name_detail"
+            app:layout_constraintTop_toBottomOf="@+id/player_name_detail" />
+
+        <TextView
+            android:id="@+id/player_club_detail"
+            style="@style/PlayerDetailFont2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/clubname"
+            app:layout_constraintStart_toStartOf="@+id/player_club"
+            app:layout_constraintTop_toBottomOf="@+id/player_club" />
+
+        <TextView
+            android:id="@+id/positional_player"
+            style="@style/PlayerDetailFont1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/positionalplayerdescription"
+            app:layout_constraintStart_toStartOf="@+id/player_club_detail"
+            app:layout_constraintTop_toBottomOf="@+id/player_club_detail" />
+
+        <TextView
+            android:id="@+id/positional_player_detail"
+            style="@style/PlayerDetailFont2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/positionalplayer"
+            app:layout_constraintStart_toStartOf="@+id/positional_player"
+            app:layout_constraintTop_toBottomOf="@+id/positional_player" />
+
+        <TextView
+            android:id="@+id/active_player"
+            style="@style/PlayerDetailFont1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/activeplayerdescription"
+            app:layout_constraintStart_toStartOf="@+id/positional_player_detail"
+            app:layout_constraintTop_toBottomOf="@+id/positional_player_detail" />
+
+        <TextView
+            android:id="@+id/rating_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/round_background"
+            android:text="@string/ratingplayer"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="@+id/player_image"
+            app:layout_constraintTop_toTopOf="@+id/player_image" />
+
+        <TextView
+            android:id="@+id/active_player_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/activeplayer"
+            app:layout_constraintStart_toStartOf="@+id/active_player"
+            app:layout_constraintTop_toBottomOf="@+id/active_player" />
+
+        <TextView
+            android:id="@+id/player_goalandassist"
+            style="@style/PlayerDetailFont1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/goalandassist"
+            app:layout_constraintStart_toStartOf="@+id/active_player_description"
+            app:layout_constraintTop_toBottomOf="@+id/active_player_description" />
+
+        <TextView
+            android:id="@+id/player_goalandassist_description"
+            style="@style/PlayerDetailFont2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/goalandassist_description"
+            app:layout_constraintStart_toStartOf="@+id/player_goalandassist"
+            app:layout_constraintTop_toBottomOf="@+id/player_goalandassist" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
