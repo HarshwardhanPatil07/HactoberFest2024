@@ -24,8 +24,7 @@ int sparseRep(int r,int c,int arr[][10])
         {
             if(arr[i][j]!=0)
             {
-                // printf("\n %d %d %d",i+1,j+1,arr[i][j]);
-                k++;//k gives number of non zero elements
+                k++;
             }
         }
     }
