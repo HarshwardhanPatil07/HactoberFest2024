@@ -1,0 +1,2 @@
+# Predict-breast-cancer-and-model-building
+The following notebook contains exploratory data analysis and ML classification models to classify if a cancer is benign or malignant Dataset used: Breast Cancer Wisconsin (Diagnostic) Data Set. In this notebook we are going to compare the various ML classification algorithms using metrics like: Classification Accuracy Confusion Matrix Precision and Recall F1 score
