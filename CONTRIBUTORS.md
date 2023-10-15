@@ -33,4 +33,5 @@
 | Rajat Kumar Prajapati| <a href="https://github.com/itsrajatkumar"> ItsRajatKumar </a>|
 | Apoorva Raj| <a href="https://github.com/Apoorva-Raj-2520"> Apoorva-Raj-2520 </a>|
 | Darshit Dudhaiya| <a href="https://github.com/darshitdudhaiya"> Darshit Dudhaiya </a>|
+| Ansh Verma| <a href="https://github.com/anshv-dev"> Ansh Verma </a>|
 | manish-bhukar|<a href="https://github.com/manish-bhukar">manish-bhukar</a>|
