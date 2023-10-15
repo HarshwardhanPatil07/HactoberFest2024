@@ -1,3 +1,8 @@
+/*
+username:limitlesslogger
+date:15 october 2023
+Aim:to to represent two sparse matrices
+*/
 #include <stdio.h>
 void getMatrix(int r,int c,int arr[][10])
 {

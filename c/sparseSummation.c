@@ -1,3 +1,8 @@
+/*
+username:limitlesslogger
+date:15 october 2023
+Aim:to find sum of two sparse matrices
+*/
 #include <stdio.h>
 typedef struct 
 {
