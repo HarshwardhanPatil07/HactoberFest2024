@@ -32,8 +32,6 @@ void displayInput(triplet a[],int n)
 void arrangeSparse(triplet a[],int n)
 {
     triplet temp[1];
-    //arrange in ascending order of columns
-    //input il column ascending akuka
     for(int i=1;i<=n;i++)
     {
         for(int j=i+1;j<=n;j++)
@@ -77,4 +75,4 @@ void main()
     transSparse(a,nonZero1);
     displayInput(a,nonZero1);
 }
-//arraged order in trans il akuka swap cheyuka
+
