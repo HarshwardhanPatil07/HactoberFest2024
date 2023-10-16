@@ -1,3 +1,8 @@
+// github-username : "charmee123"
+// aim : "C++ programs for searching algorithms so that it will help to find all the searching algorithms at one place"
+// date : "16/10/2023"
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
