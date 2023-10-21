@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Batu Gunting Kertas</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+		integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+<body>
+	<header class="header">
+		<h1>Batu Gunting Kertas</h1>
+	</header>
+	<div class="container">
+		<div class="score-container">
+			<span class="user">YOU</span>
+			<span id="score"></span>
+			<span class="com">COM</span>
+		</div>
+		<div class="buttons">
+			<button id="paper" class="bn" onclick="game(this.value)" value="paper"><i
+					class="far fa-hand-paper"></i></button>
+			<button id="rock" class="bn" onclick="game(this.value)" value="rock"><i
+					class="far fa-hand-rock"></i></button>
+			<button id="scissors" class="bn" onclick="game(this.value)" value="scissors"><i
+					class="far fa-hand-scissors"></i></button>
+		</div>
+		<div id="challenge">
+			<div id="you">
+				<div id="YourObject"></div>
+				<div class="who">You</div>
+			</div>
+			<div id="result">
+				<p id="who">
+					<p>
+			</div>
+			<div id="com">
+				<div id="ComObject"></div>
+				<div class="who">Computer</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
