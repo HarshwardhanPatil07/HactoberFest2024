@@ -1,3 +1,7 @@
+// Github Username - Sykikxo
+// Aim - implement bogosort algorithm, inputs a array of numbers, returns sorted array, and the time and iterations taken to sort.
+// Date - 21 October, 2023
+
 #include <iostream>
 #include <algorithm>
 #include <chrono>
