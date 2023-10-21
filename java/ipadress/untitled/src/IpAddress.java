@@ -1,3 +1,7 @@
+// vineeTagarwaL-code
+// a program to print IP address and host name
+// 20th oct , 2023
+
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
