@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Manee/New folder/HactoberFest2023",
-      "program": "c:/Users/Manee/New folder/HactoberFest2023/build/Debug/outDebug",
+      "cwd": "c:/Users/DELL/Documents/GitHub/HactoberFest2023",
+      "program": "c:/Users/DELL/Documents/GitHub/HactoberFest2023/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
