@@ -1,0 +1,34 @@
+//Calculate fibonacci series with classes in C++
+
+#include <iostream>
+
+class FibonacciSeries {
+private:
+    int a, b; // Variables to store the current and next Fibonacci numbers
+public:
+    FibonacciSeries() : a(0), b(1) {} // Constructor to initialize a and b
+
+    int getNext() {
+        int temp = a;
+        a = b;
+        b = temp + b;
+        return temp;
+    }
+};
+
+int main() {
+    int n;
+    std::cout << "Enter the number of terms in the Fibonacci series: ";
+    std::cin >> n;
+
+    FibonacciSeries fib; // Create an instance of the FibonacciSeries class
+
+    std::cout << "Fibonacci Series: ";
+    for (int i = 0; i < n; i++) {
+        int value = fib.getNext();
+        std::cout << value << " ";
+    }
+
+    std::cout << std::endl;
+    return 0;
+}
