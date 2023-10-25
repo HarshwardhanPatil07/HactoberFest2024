@@ -37,4 +37,5 @@
 | RAGHAVS1304|<a href="https://github.com/RAGHAVS1304">RAGHAVS1304</a>|
 | Divyansh200102|<a href="https://github.com/Divyansh200102">Divyansh200102</a>|
 | vineeTagarwaL-code|<a href="https://github.com/VineeTagarwaL-code">vineeTagarwaL-code</a>|
-|swathi singh|<a href="https://github.com/Swathi1203/HactoberFest-2023">Swathi1203</a>
+|swathi singh|<a href="https://github.com/Swathi1203/HactoberFest-2023">Swathi1203</a>|
+| Rakhi M Bhagwat |<a href="https://github.com/Rakhi-2002">Rakhi-2002</a>|
