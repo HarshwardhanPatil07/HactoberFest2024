@@ -38,4 +38,5 @@
 | Divyansh200102|<a href="https://github.com/Divyansh200102">Divyansh200102</a>|
 | vineeTagarwaL-code|<a href="https://github.com/VineeTagarwaL-code">vineeTagarwaL-code</a>|
 |swathi singh|<a href="https://github.com/Swathi1203/HactoberFest-2023">Swathi1203</a>|
+|parvez Mohammad|<a href="https://github.com/mdparvez6">mdparvez6</a>|
 | Rakhi M Bhagwat |<a href="https://github.com/Rakhi-2002">Rakhi-2002</a>|
