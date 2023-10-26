@@ -40,3 +40,5 @@
 |swathi singh|<a href="https://github.com/Swathi1203/HactoberFest-2023">Swathi1203</a>|
 | Rakhi M Bhagwat |<a href="https://github.com/Rakhi-2002">Rakhi-2002</a>|
 | Vishal Jadhav |<a href="https://github.com/vishaljadhav207</a>|
+|parvez Mohammad|<a href="https://github.com/mdparvez6">mdparvez6</a>|
+| Rakhi M Bhagwat |<a href="https://github.com/Rakhi-2002">Rakhi-2002</a>|
