@@ -1,3 +1,6 @@
+// vineeTagarwaL-code
+// a program to print IP address and host name
+// 20th oct , 2023
 
 // C program to implement iterative Binary  , only usable in sorted array ... linear can be implemented in both sorted and non-sorted array
 #include <stdio.h>
