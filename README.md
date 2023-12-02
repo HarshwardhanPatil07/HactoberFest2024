@@ -1,5 +1,4 @@
 # HactoberFest2023
-<a href="https://github.com/HarshwardhanPatil07/HactoberFest2023"><img src="https://visitor-badge.laobi.icu/badge?page_id=HarshwardhanPatil07.HactoberFest2023" alt="Visitors"/></a>
 A Simple😉 beginner friendly😊 Repo for all programmers and coders. All contributors are requested to star🌟this repo and and follow me.  Contribute to start your journey with hacktoberfest. Happy Hacking💻!!!
 # 🌟Languages
 - 💻 C
