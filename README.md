@@ -1,4 +1,4 @@
-# HactoberFest2023
+# HactoberFest2024
 A Simple😉 beginner friendly😊 Repo for all programmers and coders. All contributors are requested to star🌟this repo and and follow me.  Contribute to start your journey with hacktoberfest. Happy Hacking💻!!!
 # 🌟Languages
 - 💻 C
@@ -40,7 +40,7 @@ A Simple😉 beginner friendly😊 Repo for all programmers and coders. All cont
 
 ## Don't forget to read the contributing rules above to be successfully merged your PR and get rewards!!!
 
-🏹 Visit <a href="hacktoberfest.com" target="_blank">Hacktoberfest</a> to get more information about Hacktoberfest 2023!!!
+🏹 Visit <a href="hacktoberfest.com" target="_blank">Hacktoberfest</a> to get more information about Hacktoberfest 2024!!!
 
 
 
