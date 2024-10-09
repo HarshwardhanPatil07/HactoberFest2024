@@ -44,3 +44,4 @@
 | Rakhi M Bhagwat |<a href="https://github.com/Rakhi-2002">Rakhi-2002</a>|
 | Jobin Abraham | <a href="https://github.com/jobs-code">jobs-code</a> |
 | Helen Sahith Sadhe |<a href="https://github.com/helensahith">helensahith</a>|
+| Tejeshwar-SM | <a href="https://github.com/Tejeshwar-SM">Tejeshwar Singh</a> |
