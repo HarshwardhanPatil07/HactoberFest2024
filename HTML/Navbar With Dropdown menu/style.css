@@ -266,9 +266,7 @@ nav ul li a {
       .hero {
         background: #f8f9fa;
         padding: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+   
     }
     .sub-menu-wrap {
         display: none; /* Hide the submenu by default */
