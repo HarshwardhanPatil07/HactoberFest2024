@@ -1,5 +1,7 @@
-# Name of Contributer -- Morsecode.py 
-
+# Name of Contributer -- Sujit Nirmal 
+# Date of contribution -- Mon 14, 2024
+# github username -- @blacksujit
+# aim -- A dictionary MORSE_CODE_DICT is used to map characters to their Morse code equivalent and vice versa. to show this implementation i have added the code 
 
 # Morse Code Dictionary
 MORSE_CODE_DICT = {
