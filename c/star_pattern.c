@@ -1,4 +1,6 @@
 #include<stdio.h>
+//github username: @Kanan33
+//date:15/10/2024
 void main()
 {
     int i,j,n;
