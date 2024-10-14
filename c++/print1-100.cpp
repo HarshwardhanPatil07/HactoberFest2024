@@ -15,3 +15,21 @@ int main() {
     cout << endl;
     return 0;
 }
+
+// using iteration
+
+
+#include <bits/stdc++.h>
+using namespace std;
+void printNumbers(int current, int end) {
+    for(int i=current;i<=end;i++)
+        {
+            cout<<i<<endl;
+        }
+}
+
+int main() {
+    printNumbers(1, 100);
+    cout << endl;
+    return 0;
+}
