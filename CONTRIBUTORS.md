@@ -46,4 +46,5 @@
 | Helen Sahith Sadhe |<a href="https://github.com/helensahith">helensahith</a>|
 | Vanshika Rathod |<a href="https://github.com/vanshikaaaaaaaa">vanshika</a>|
 | Sujit Manojrao Nirmal |<a href="https://github.com/Blacksujit">helensahith</a>|
+| Emanuel Gomes | <a href="https://github.com/emanuelgomesqa">emanuelgomesqa</a> |
 
