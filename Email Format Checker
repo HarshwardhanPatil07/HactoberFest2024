@@ -1,0 +1,42 @@
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class EmailValidator {
+
+    // Regular expression pattern for validating email
+    private static final String EMAIL_REGEX = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[a-zA-Z]{2,}$";
+
+    // Method to validate email
+    public static boolean isValidEmail(String email) {
+        // Compile the regex pattern
+        Pattern pattern = Pattern.compile(EMAIL_REGEX);
+        
+        // Match the input email against the pattern
+        Matcher matcher = pattern.matcher(email);
+        
+        // Return true if it matches, false otherwise
+        return matcher.matches();
+    }
+
+    public static void main(String[] args) {
+        // Test email addresses
+        String[] testEmails = {
+            "test.email@example.com",
+            "user.name+tag+sorting@example.com",
+            "email@subdomain.example.com",
+            "plainaddress",
+            "@missinglocalpart.com",
+            "user@.com",
+            "user@domain..com"
+        };
+
+        // Check each email
+        for (String email : testEmails) {
+            if (isValidEmail(email)) {
+                System.out.println(email + " is a valid email address.");
+            } else {
+                System.out.println(email + " is NOT a valid email address.");
+            }
+        }
+    }
+}
