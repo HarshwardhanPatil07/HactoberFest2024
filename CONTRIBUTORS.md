@@ -39,9 +39,16 @@
 | vineeTagarwaL-code|<a href="https://github.com/VineeTagarwaL-code">vineeTagarwaL-code</a>|
 | swathi singh|<a href="https://github.com/Swathi1203/HactoberFest-2023">Swathi1203</a>|
 | Rakhi M Bhagwat |<a href="https://github.com/Rakhi-2002">Rakhi-2002</a>|
-| Vishal Jadhav |<a href="https://github.com/vishaljadhav207</a>|
+| Vishal Jadhav |<a href="https://github.com/vishaljadhav207">Vishal Jadhav</a>|
 | parvez Mohammad|<a href="https://github.com/mdparvez6">mdparvez6</a>|
 | Rakhi M Bhagwat |<a href="https://github.com/Rakhi-2002">Rakhi-2002</a>|
 | Jobin Abraham | <a href="https://github.com/jobs-code">jobs-code</a> |
 | Helen Sahith Sadhe |<a href="https://github.com/helensahith">helensahith</a>|
 | Drupitha Chandrashekar |<a href="https://github.com/Drupitha-Chandrashekar">Drupitha-Chandrashekar</a>|
+| Vanshika Rathod |<a href="https://github.com/vanshikaaaaaaaa">vanshika</a>|
+| Sujit Manojrao Nirmal |<a href="https://github.com/Blacksujit">helensahith</a>|
+| Ankita Sinha Ray |<a href="https://github.com/ankitasray">ankitasray</a>|
+| Aditya Pandey |<a href="https://github.com/Aditya7pandey">Aditya7pandey</a>|
+| Yash Bandal |<a href="https://github.com/Yash-Bandal">Yash Bandal</a>|
+
+
