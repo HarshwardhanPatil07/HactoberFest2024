@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Snake Game</h1>
+    </header>
+
+    <main>
+        <div class="score">
+            <p>Score: <span id="score">0</span></p>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div id="gameOverScreen" class="game-over-screen">
+            <p>Game Over!</p>
+            <p>Your Score: <span id="finalScore">0</span></p>
+            <input type="text" id="nameInput" placeholder="Enter your name">
+            <button id="submitScoreButton">Submit Score</button>
+        </div>
+        <div id="historyScreen" class="history-screen">
+            <h2>Game History</h2>
+            <table id="historyTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 sharath. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
