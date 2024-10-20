@@ -48,6 +48,7 @@
 | Drupitha Chandrashekar |<a href="https://github.com/Drupitha-Chandrashekar">Drupitha-Chandrashekar</a>|
 | Vanshika Rathod |<a href="https://github.com/vanshikaaaaaaaa">vanshika</a>|
 | Sujit Manojrao Nirmal |<a href="https://github.com/Blacksujit">helensahith</a>|
+| Emanuel Gomes | <a href="https://github.com/emanuelgomesqa">emanuelgomesqa</a> |
 | Ankita Sinha Ray |<a href="https://github.com/ankitasray">ankitasray</a>|
 | Aditya Pandey |<a href="https://github.com/Aditya7pandey">Aditya7pandey</a>|
 | Yash Bandal |<a href="https://github.com/Yash-Bandal">Yash Bandal</a>|
