@@ -52,3 +52,4 @@
 | Ankita Sinha Ray |<a href="https://github.com/ankitasray">ankitasray</a>|
 | Aditya Pandey |<a href="https://github.com/Aditya7pandey">Aditya7pandey</a>|
 | Yash Bandal |<a href="https://github.com/Yash-Bandal">Yash Bandal</a>|
+| Harshit Jaiswal |<a href="https://github.com/harshu84190">Harshit Jaiswal</a>|
