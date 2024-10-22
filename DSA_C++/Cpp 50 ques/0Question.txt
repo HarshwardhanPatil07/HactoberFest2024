@@ -1,0 +1,50 @@
+1. Write a C++ Program to Add Two Integers by using exception handling.
+2. Write a C++ Program to Print an Integer (Entered by the User) using class.
+3. Write a C++ Program to Multiply Two Floating-Point Numbers using class.
+4. Write a C++ Program to Find ASCII Value of a Character using loop.
+5. Write a C++ Program to Compute Quotient and Remainder using Exception handling.
+6. Write a C++ Program to Find the Size of int,float,double and char.
+7. Write a C++ Program to Swap Two Numbers Using Temporary Variable.
+8. Write a C++ Program to Check Whether a Number is Even or Odd.
+9. Write a C++ Program to Check Odd or Even Using the TernaryOperator.
+10. Write a C++ Program to Check Whether a Character is a Vowel or Consonant.
+11. Write a C++ Program to Find the Largest Number Among Three Numbers.
+12. Write a C++ Program to Check Leap Year.
+13. Write a C++ Program to Check Whether a Character is an Alphabet or not.
+14. Write a C++ Program to Calculate the Sum of first ‘N’ Natural Numbers.
+15. Write a C++ Program to Find Factorial of a Number.
+16. Write a C++ Program to Generate Multiplication Table of a given number.
+17. Write a C++ Program to Display Fibonacci Sequence upto ‘n’ numbers.
+18. Write a C++ Program to Count Number of Digits in an Integer.
+19. Write a C++ Program to Reverse a Number.
+20. Write a C++ Program to Check Whether a Number is Palindrome or Not.
+21. Write a C++ Program to Check Whether a Number is Prime or Not.
+22. Write a C++ Program to Check whether the given number is an Armstrong Number or not.
+23. Write a C++ Program to Make a Simple Calculator Using switch...case.
+24. Write a C++ Programming Code To Create Pyramid and Pattern.
+25. Write a C++ program to reverse a Sentence Using Recursion.
+26. Write a C++ Program to Display Prime Numbers Between Intervals Using Function.
+27. Write a C++ Program to Convert Binary Number to Decimal and vice-versa.
+28. Write a C++ Program to Check Prime or Armstrong Number Using User-defined Function.
+29. Write a C++ program to calculate the power using recursion.
+30. Write a C++ Program to Find G.C.D Using Recursion.
+31. Write a C++ Program to Calculate Average Using Arrays.
+32. Write a C++ Program to Find Largest Element in an Array.
+33. Write a C++ Program to Add Two Matrices Using Multi-dimensional Arrays.
+34. Write a C++ Program to Find the Length of a String.
+35. Write a C++ Program to Concatenate Two Strings.
+36. Write a C++ Program to Copy String Without Using strcpy().
+37. Write a C++ Program to Count the Number of Vowels,Consonants and so on.
+38. Write a C++ Program to Find the Frequency of Characters in a String.
+39. Write a C++ Program to Access Array Elements Using Pointers.
+40. Write a C++ program to create,initialize,assignand access a pointer variable.
+41. Write a C++ program to swap two numbers using pointers
+42. Write a C++ program to count vowels and consonants in a string using pointers.
+43. Write a C++ Program to Store Information of a Student Using File.
+44. Write a C++ Program to Add Two Distances (in inch-feet system) using Class.
+45. Write a C++ Program to Store Information of Students Marks Using File.
+46. Write a C++ program to declare,initialize a stack operations.
+47. Write a C++ program to implement function overloading using unary operator.
+48. Write a C++ program to calculate an area of rectangle using encapsulation.
+49. Write a C++ program to add two numbers using data abstraction.
+50. Write a C++ program to overload binary operators.
