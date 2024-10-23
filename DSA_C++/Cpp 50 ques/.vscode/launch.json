@@ -2,21 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "java",
-      "name": "Kreverse",
-      "request": "launch",
-      "mainClass": "Kreverse",
-      "projectName": ""
-    },
-    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Manee/New folder/HactoberFest2023",
-      "program": "c:/Users/Manee/New folder/HactoberFest2023/build/Debug/outDebug",
+      "cwd": "c:/c++ experiment/Cpp 50 ques",
+      "program": "c:/c++ experiment/Cpp 50 ques/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
