@@ -1,3 +1,4 @@
+
 <h1>✨Happy Hacktoberfest 2023✨</h1>
 <p>Hacktoberfest is a yearly event which encourages not only programmers and coders but also non-technical background to contribute in open source and start their journey with open source.</p>
 <h1>Star Repo is Mandatory for Hactober Accepting!</h1>
@@ -53,3 +54,5 @@
 | Aditya Pandey |<a href="https://github.com/Aditya7pandey">Aditya7pandey</a>|
 | Yash Bandal |<a href="https://github.com/Yash-Bandal">Yash Bandal</a>|
 | Harshit Jaiswal |<a href="https://github.com/harshu84190">Harshit Jaiswal</a>|
+| Yashal Ali |<a href="(https://github.com/yashal-ali)">Yashal Ali </a>|
+
