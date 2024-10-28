@@ -1,3 +1,7 @@
+# Username:Madhuj275
+#Aim : Implement Rock Paper Scissor Game using Algorithm
+# Date: 28/10/24
+
 import random
 choices = ['rock', 'paper', 'scissors']
 comp_choice = random.choice(choices)
