@@ -1,0 +1,119 @@
+Top 9 C++ Project Ideas with Source Code
+
+
+Beginner-Level C++ Project Ideas
+
+
+1. Simple Calculator
+
+Functionality:
+ Build a basic calculator program that can perform arithmetic operations such as addition, subtraction, multiplication, and division. The program should prompt the user to enter two numbers and the desired operation, and then display the result.
+
+Skills Required:
+
+Basic understanding of C++ syntax
+Arithmetic operations
+Input/output handling
+Source Code: https://github.com/SimpleMobileTools/Simple-Calculator
+
+
+2. Number Guessing Game
+Functionality: 
+Create a simple number-guessing game where the computer generates a random number between a specified range, and the player tries to guess it within a limited number of attempts. Provide feedback to the player on whether their guess is too high or too low.
+
+Skills Required:
+
+Conditional statements
+Loops
+Random number generation
+Source Code:  https://github.com/topics/number-guessing-game?l=c%2B%2B
+
+Must Read: The 5 Most User-Friendly Programming Languages
+
+3. Hospital Management System
+Functionality: 
+Develop a Hospital Management System that enables efficient management of patient records, appointments, medical history, and staff information. The system should allow administrators to add, update, and delete patient and staff records, schedule appointments, and generate reports. Additionally, it should ensure data privacy and security compliance
+
+Skills Required:
+
+File Handling and Data Storage
+User Interface Design
+Database Integration
+Error Handling and Validation
+Multi-file Project Organization
+Source Code: https://github.com/topics/hospital-management-system
+
+
+Intermediate-Level C++ Project Ideas
+
+
+4. ToDo List Application
+Functionality:
+Develop a command-line ToDo list application that allows users to add tasks, mark them as completed, and view their list of tasks. Implement features like saving and loading tasks from a file for persistent storage.
+
+Skills Required
+
+File handling
+Data structures (e.g., arrays, vectors)
+String manipulation
+Source Code: https://github.com/abdellatif-laghjaj/todo-list
+
+
+5. ATM Simulator
+Functionality: 
+Build a simulation of an Automated Teller Machine (ATM) where users can perform banking operations such as checking balances, depositing money, withdrawing cash, and transferring funds between accounts. You should also ensure proper user input validation and gracefully handle error cases.
+
+Skills Required:
+
+Functions
+Data validation
+Error handling
+Source Code: https://github.com/HouariZegai/ATMSimulator
+
+6. Text-based RPG Game
+Functionality: 
+Create a text-based role-playing game (RPG) where players navigate through different scenarios, engage in battles with enemies, and make decisions that affect the outcome of the game. Implement character attributes, combat mechanics, and branching storylines.
+
+Skills Required
+
+Object-oriented programming (OOP)
+Class design
+Game logic
+Source Code: https://github.com/cordeirossauro/TRPG
+
+
+Advanced-Level C++ Project Ideas
+
+
+7. Compiler Construction
+Functionality: 
+Design and implement a basic compiler for a custom programming language. Develop modules for lexical analysis, syntax parsing, semantic analysis, code generation, and optimization. The compiler should be capable of translating source code into executable machine code.
+
+Skills Required:
+
+Understanding of compiler theory
+Parsing techniques (e.g., recursive descent, LL parsing)
+Code optimization
+Source Code: https://github.com/RichardGong/PlayWithCompiler
+
+8. Computer Graphics Engine
+Functionality: 
+Create a computer graphics engine capable of rendering 2D and 3D graphics using techniques like rasterization or ray tracing. Implement features such as geometric transformations, lighting models, texture mapping, and shading algorithms to generate visually appealing images.
+
+Skills Required:
+
+Mathematics (linear algebra, geometry)
+Graphics programming
+Algorithm optimization
+Source Code: https://github.com/topics/rendering-enginee
+
+9. Distributed Systems Framework
+Functionality: 
+Develop a distributed systems framework for building scalable and fault-tolerant networked applications. Design modules for communication protocols, load balancing, fault detection, and data replication to enable the development of distributed applications across multiple nodes.
+
+Skills Required:
+
+Network programming
+Concurrent programming
+Distributed systems concepts
+Source Code: https://github.com/ydf0509/distributed_framework

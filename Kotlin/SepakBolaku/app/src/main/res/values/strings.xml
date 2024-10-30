@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Sepak Bolaku</string>
+    <string name="developer_name">Kevin Malik Fajar</string>
+    <string name="email">kevinmalikfajar10@gmail.com</string>
+    <string name="description">Description :</string>
+
+    <string name="playernamedescription">Player Name :</string>
+    <string name="playername">Sergio Aguero</string>
+    <string name="clubnamedescription">Player Club :</string>
+    <string name="clubname">Manchester City</string>
+    <string name="positionalplayerdescription">Positional Player :</string>
+    <string name="positionalplayer">CF</string>
+    <string name="activeplayerdescription">Active Player :</string>
+    <string name="activeplayer">NO</string>
+    <string name="goalandassist">Goal and Assist : </string>
+    <string name="goalandassist_description">188/156</string>
+    <string name="ratingplayer">4.8</string>
+
+    <string name="player_imagedescription">football player image</string>
+    <string name="templateitem">template item row</string>
+
+    <string name="splashscreen_text">Powered by Dicoding Submission</string>
+
+    <string-array name="data_name">
+        <item>Kevin De Bruyne</item>
+        <item>Cristiano Ronaldo</item>
+        <item>Sergio Aguero</item>
+        <item>Ruben Dias</item>
+        <item>Lionel Messi</item>
+        <item>Erling Haaland</item>
+        <item>Kai Havertz</item>
+        <item>Mario Gomez</item>
+        <item>Yaya Toure</item>
+        <item>Alvaro Negredo</item>
+    </string-array>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue facilisis pharetra. Maecenas ligula nibh, cursus sed dolor non, fermentum malesuada mi. Suspendisse non metus odio. Aliquam ut elementum augue. Vivamus ut ligula consectetur, maximus diam id, aliquet eros. Quisque cursus gravida arcu in venenatis. Pellentesque sit amet dui in nulla suscipit semper et sit amet libero. Vestibulum sit amet ex eget dolor aliquet pellentesque. Vivamus pellentesque risus sed ante gravida bibendum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vel lacus at urna ultrices placerat. Curabitur tincidunt sollicitudin posuere. Aenean mattis vitae elit et ornare. </string>
+
+    <string-array name="data_club">
+        <item>Manchester City</item>
+        <item>Al-Nassr</item>
+        <item>-</item>
+        <item>Manchester City</item>
+        <item>Paris Saint Germain</item>
+        <item>Manchester City</item>
+        <item>Chelsea</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Cadiz CF</item>
+    </string-array>
+
+    <string-array name="data_rate">
+        <item>4.8</item>
+        <item>4.9</item>
+        <item>4.8</item>
+        <item>4.7</item>
+        <item>5.0</item>
+        <item>4.8</item>
+        <item>4.5</item>
+        <item>4.7</item>
+        <item>4.8</item>
+        <item>4.6</item>
+    </string-array>
+
+    <string-array name="data_position">
+        <item>AMF/CMF</item>
+        <item>CF/LWF</item>
+        <item>CF</item>
+        <item>CB</item>
+        <item>RWF/AMF</item>
+        <item>CF</item>
+        <item>AMF</item>
+        <item>CF</item>
+        <item>CMF</item>
+        <item>CF</item>
+    </string-array>
+
+    <string-array name="allgoaluntilnow">
+        <item>137</item>
+        <item>709</item>
+        <item>385</item>
+        <item>16</item>
+        <item>705</item>
+        <item>168</item>
+        <item>103</item>
+        <item>319</item>
+        <item>102</item>
+        <item>252</item>
+    </string-array>
+
+    <string-array name="allassistuntilnow">
+        <item>223</item>
+        <item>225</item>
+        <item>119</item>
+        <item>13</item>
+        <item>333</item>
+        <item>40</item>
+        <item>50</item>
+        <item>72</item>
+        <item>70</item>
+        <item>86</item>
+    </string-array>
+
+    <string-array name="activeplayer">
+        <item>YES</item>
+        <item>YES</item>
+        <item>NO</item>
+        <item>YES</item>
+        <item>YES</item>
+        <item>YES</item>
+        <item>NO</item>
+        <item>NO</item>
+        <item>NO</item>
+        <item>YES</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Kevin De Bruyne is a Belgian professional footballer who plays as a midfielder for Premier League club Manchester City and the Belgium national team. He is widely regarded as one of the best players in the world. Pundits have often described him as a "complete footballer". De Bruyne began his career at Genk, where he was a regular player when they won the 2010–11 Belgian Pro League. In 2012 he joined English club Chelsea, where he was used sparingly and then loaned to Werder Bremen. He signed with Wolfsburg for £18 million in 2014, where he established himself as one of the best players in the Bundesliga and was integral in the clubs 2014–15 DFB-Pokal win. In the summer of 2015 De Bruyne joined Manchester City for a club record £54 million. He has since won four Premier League titles, five League Cups and an FA Cup with the club. In 2017–18 he had a significant role in Manchester City record in becoming the only Premier League team to attain 100 points in a single season. In 2019–20, De Bruyne equalled the record for most assists in a Premier League season and was awarded Player of the Season (which he won again in 2021–22). Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue facilisis pharetra. Maecenas ligula nibh, cursus sed dolor non, fermentum malesuada mi. Suspendisse non metus odio. Aliquam ut elementum augue. Vivamus ut ligula consectetur, maximus diam id, aliquet eros. Quisque cursus gravida arcu in venenatis. Pellentesque sit amet dui in nulla suscipit semper et sit amet libero. Vestibulum sit amet ex eget dolor aliquet pellentesque. Vivamus pellentesque risus sed ante gravida bibendum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vel lacus at urna ultrices placerat. Curabitur tincidunt sollicitudin posuere. Aenean mattis vitae elit et ornare. </item>
+        <item>Cristiano Ronaldo is a Portuguese professional footballer who is widely regarded as one of the greatest players of all time. He was born on February 5, 1985 on the island of Madeira and began his career at Sporting CP before moving to Manchester United in 2003. Ronaldo is known for his incredible goal-scoring ability, his skill on the ball, and his impressive physical attributes. He has won numerous individual awards throughout his career, including five Ballon dOr awards, and has also won multiple domestic and international titles with his club teams and the Portuguese national team. Ronaldo is also known for his philanthropic work, particularly in the areas of childhood hunger and poverty.</item>
+        <item>Sergio Aguero is an former Argentine professional footballer. He is widely regarded as one of the best goalscorers in the world, known for his pace, agility, and clinical finishing. Aguero began his career at Independiente in Argentina, before moving to Europe to play for Atletico Madrid and then Manchester City, where he became the clubs all-time leading scorer. Throughout his career, he has won numerous domestic and international titles, including several Premier League titles, FA Cups, and the UEFA Champions League. Aguero is also a prolific scorer for the Argentina national team, having helped lead them to the finals of the 2014 World Cup and the 2015 and 2016 Copa America tournaments. Despite facing injuries and setbacks throughout his career, Aguero remains a highly respected and influential figure in world football.</item>
+        <item>Ruben Dias is a Portuguese professional footballer who currently plays as a centre-back for Premier League club Manchester City and the Portugal national team. He is widely regarded as one of the best defenders in the world and has been praised for his solid defensive skills and leadership qualities. Dias began his career at Benfica, where he played for four years before joining Manchester City in 2020 for a transfer fee of £62 million. In his debut season, Dias played a key role in helping Manchester City win the Premier League and the Carabao Cup, and was named the Premier League Player of the Season.</item>
+        <item>Lionel Messi is an Argentine professional footballer who plays as a forward for Paris Saint-Germain and the Argentina national team. Widely regarded as one of the greatest football players of all time, Messi has won numerous awards and accolades throughout his career, including seven Ballon dOr titles. He spent the majority of his career playing for Barcelona, where he became the clubs all-time leading scorer and helped lead them to numerous domestic and international titles. Known for his incredible dribbling skills, speed, and scoring ability, Messi has been a dominant force in world football for over a decade.</item>
+        <item>Erling Haaland is a Norwegian professional footballer who currently plays as a striker for German club Borussia Dortmund and the Norway national team. He is known for his incredible speed, strength, and finishing ability, and has quickly established himself as one of the best young players in the world.</item>
+        <item>Kai Havertz is a German professional footballer who plays as an attacking midfielder for English club Chelsea and the Germany national team. He is known for his exceptional technical skills, vision, and composure on the ball, and has been hailed as one of the most promising young talents in European football.</item>
+        <item>Mario Gomez is a retired German professional footballer who played as a striker for several top clubs in Europe, including VfB Stuttgart, Bayern Munich, and Fiorentina. He was known for his clinical finishing, aerial ability, and physical strength, and was a key player for both his club and the Germany national team during his career.</item>
+        <item>Yaya Toure is an Ivorian former professional footballer who played as a central midfielder for top clubs like Barcelona, Manchester City, and Olympiacos. He was known for his technical ability, physical strength, and tactical intelligence, and was widely regarded as one of the best midfielders of his generation.</item>
+        <item>Alvaro Negredo is a retired Spanish professional footballer who played as a striker for several clubs in Spain and England, including Sevilla, Manchester City, and Middlesbrough. He was known for his powerful shots, aerial ability, and physical presence, and was a prolific scorer throughout his career.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/debruyne</item>
+        <item>@drawable/ronaldo</item>
+        <item>@drawable/aguero</item>
+        <item>@drawable/rubendias</item>
+        <item>@drawable/messi</item>
+        <item>@drawable/haaland</item>
+        <item>@drawable/havertz</item>
+        <item>@drawable/mariogomez</item>
+        <item>@drawable/yayatoure</item>
+        <item>@drawable/negredo</item>
+    </integer-array>
+</resources>
