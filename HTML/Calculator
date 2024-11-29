@@ -1,0 +1,156 @@
+//USERNAME:Nikiii18
+//AIM: HACKTOBERFEST PULL REQ
+//DATE: 8/10/2024
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Calculator</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .calculator {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            width: 320px;
+        }
+        #display {
+            width: 100%;
+            height: 60px;
+            border: none;
+            background-color: #f3f3f3;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 32px;
+            text-align: right;
+            padding: 10px;
+            box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.05);
+            color: #333;
+        }
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        button {
+            width: 100%;
+            height: 60px;
+            font-size: 24px;
+            font-weight: bold;
+            border: none;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            color: #333;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e0e0e0;
+        }
+        button:active {
+            transform: scale(0.95);
+            background-color: #d0d0d0;
+        }
+        button.bounce {
+            animation: bounce 0.3s ease-in-out;
+        }
+        button.operator {
+            background-color: #ff7a59;
+            color: white;
+        }
+        button.operator:hover {
+            background-color: #ff6a45;
+        }
+        button.equals {
+            background-color: #47d147;
+            color: white;
+            grid-column: span 2;
+        }
+        button.equals:hover {
+            background-color: #3ac53a;
+        }
+        @keyframes bounce {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button onclick="handleClick(this, '7')">7</button>
+            <button onclick="handleClick(this, '8')">8</button>
+            <button onclick="handleClick(this, '9')">9</button>
+            <button class="operator" onclick="handleClick(this, '/')">/</button>
+
+            <button onclick="handleClick(this, '4')">4</button>
+            <button onclick="handleClick(this, '5')">5</button>
+            <button onclick="handleClick(this, '6')">6</button>
+            <button class="operator" onclick="handleClick(this, '*')">*</button>
+
+            <button onclick="handleClick(this, '1')">1</button>
+            <button onclick="handleClick(this, '2')">2</button>
+            <button onclick="handleClick(this, '3')">3</button>
+            <button class="operator" onclick="handleClick(this, '-')">-</button>
+
+            <button onclick="handleClick(this, '0')">0</button>
+            <button onclick="handleClick(this, '.')">.</button>
+            <button class="equals" onclick="handleClick(this, 'equals')">=</button>
+            <button class="operator" onclick="handleClick(this, '+')">+</button>
+
+            <button onclick="handleClick(this, 'clear')">C</button>
+        </div>
+    </div>
+
+    <script>
+        function appendValue(value) {
+            const display = document.getElementById('display');
+            display.value += value;
+        }
+
+        function clearDisplay() {
+            document.getElementById('display').value = '';
+        }
+
+        function calculate() {
+            const display = document.getElementById('display');
+            try {
+                display.value = eval(display.value); // Perform calculation
+            } catch (error) {
+                display.value = 'Error';
+            }
+        }
+
+        function handleClick(button, value) {
+            // Add the bounce animation class
+            button.classList.add('bounce');
+            
+            // Remove the animation class after animation ends
+            setTimeout(() => {
+                button.classList.remove('bounce');
+            }, 300);
+            
+            if (value === 'clear') {
+                clearDisplay();
+            } else if (value === 'equals') {
+                calculate();
+            } else {
+                appendValue(value);
+            }
+        }
+    </script>
+</body>
+</html>
