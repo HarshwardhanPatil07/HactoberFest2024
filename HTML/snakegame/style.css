@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: bisque;
+    color: blueviolet;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+header:hover, footer:hover {
+    background-color: #00796b;
+}
+
+footer {
+    margin-top: auto;
+    padding: 10px;
+    font-size: 14px;
+}
+
+header h1, footer p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.score {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #fff;
+    border: 2px solid #00796b;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #00796b;
+    text-align: center;
+}
+
+.score span {
+    color: #004d40;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+canvas {
+    background-color: rgba(128, 128, 128, 0.805);
+    border: 2px solid #fff;
+}
+
+.game-over-screen {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.game-over-screen p {
+    margin: 10px 0;
+}
+
+#nameInput {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 80%;
+}
+
+#submitScoreButton {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#submitScoreButton:hover {
+    background-color: #218838;
+}
+
+.history-screen {
+    margin-top: 20px;
+}
+
+#historyTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#historyTable th, #historyTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#historyTable th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#historyTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#historyTable tr:hover {
+    background-color: #f1f1f1;
+}
